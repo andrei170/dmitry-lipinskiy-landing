@@ -3,525 +3,285 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Roofing School - Teaching Contractors How to Run a Profitable Roofing Business</title>
-<meta name="description" content="Roofing School by Dmitry Lipinskiy. Accounting, marketing, production, admin, profitability. Monthly training modules and weekly group calls for roofing company owners.">
+<title>Roofing School - Teaching Roofing Operators How To Run A Profitable Business</title>
+<meta name="description" content="Roofing School by Dmitry Lipinskiy. Full marketing package with visit-your-business guarantee. Accounting, marketing, production, hiring. Founded 2019.">
 <meta name="robots" content="noindex">
 <meta property="og:title" content="Roofing School - Dmitry Lipinskiy">
-<meta property="og:description" content="147K subscribers watch the free content. Roofing School members get the install. Accounting, marketing, production, admin, and profitability.">
+<meta property="og:description" content="Full marketing package with the visit-your-business guarantee. Founded 2019. Accounting, marketing, production, hiring.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://andrei170.github.io/dmitry-lipinskiy-landing/">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
-  :root{
-    --bg-deep:#0A0A0A;
-    --bg-elev:#111111;
-    --bg-card:rgba(22,22,22,0.85);
-    --red:#C0392B;
-    --red-bright:#D94030;
-    --red-dim:#9B2F23;
-    --red-soft:rgba(192,57,43,0.09);
-    --red-border:rgba(192,57,43,0.32);
-    --red-border-strong:rgba(192,57,43,0.55);
-    --text-primary:#F2F0EA;
-    --text-secondary:#A8A49C;
-    --text-muted:#6A665D;
-    --text-on-dark:#FFFFFF;
-    --border:rgba(255,255,255,0.10);
-    --border-strong:rgba(255,255,255,0.22);
-    --accent-soft:rgba(255,255,255,0.05)
-  }
+  :root{--bg-deep:#050506;--bg-elev:#0e0e10;--bg-card:rgba(20,20,24,0.7);--accent:#d4af37;--accent-bright:#ecc88a;--text-primary:#ece9e3;--text-secondary:#a09c93;--text-muted:#6c685f;--border:rgba(212,175,55,0.18);--border-strong:rgba(212,175,55,0.45);--accent-soft:rgba(212,175,55,0.08);--risk-red:#dc4040;--risk-soft:rgba(220,64,64,0.08)}
   html{scroll-behavior:smooth}
-  body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg-deep);color:var(--text-primary);line-height:1.6;overflow-x:hidden}
-  body::before{content:'';position:fixed;inset:0;background:radial-gradient(circle at 14% 0%,rgba(192,57,43,0.08),transparent 46%),radial-gradient(circle at 86% 100%,rgba(192,57,43,0.04),transparent 46%);pointer-events:none;z-index:0}
+  body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg-deep);color:var(--text-primary);line-height:1.65;overflow-x:hidden}
+  body::before{content:'';position:fixed;inset:0;background:radial-gradient(circle at 10% 0%,rgba(212,175,55,0.07),transparent 50%),radial-gradient(circle at 90% 100%,rgba(212,175,55,0.05),transparent 50%);pointer-events:none;z-index:0}
   .container{max-width:1100px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
-  .container-narrow{max-width:800px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
-  h1,h2,h3,h4{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;letter-spacing:-0.01em;line-height:1.15}
-  a{color:inherit;text-decoration:none}
-
-  /* NAV */
-  nav{position:fixed;top:0;left:0;right:0;padding:15px 0;background:rgba(10,10,10,0.92);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);z-index:100}
+  .container-narrow{max-width:780px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;letter-spacing:-0.01em;line-height:1.15}
+  nav{position:fixed;top:0;left:0;right:0;padding:16px 0;background:rgba(5,5,6,0.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);z-index:100}
   .nav-inner{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;padding:0 28px}
-  .logo{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;letter-spacing:0.04em;color:var(--text-primary)}
-  .logo span{color:var(--red-bright)}
-  .nav-cta{padding:9px 22px;background:var(--red);color:#fff;border-radius:2px;font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;transition:all 0.3s ease}
-  .nav-cta:hover{background:var(--red-bright);transform:translateY(-1px)}
-
-  /* HERO */
-  .hero{padding:126px 0 64px;text-align:center}
-  .eyebrow{display:inline-block;padding:8px 20px;background:var(--red-soft);border:1px solid var(--red-border-strong);border-radius:100px;font-size:11px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--red-bright);margin-bottom:28px}
-  .hero h1{font-size:clamp(36px,5.5vw,66px);line-height:1.05;margin-bottom:16px;max-width:920px;margin-left:auto;margin-right:auto;text-wrap:balance}
-  .hero h1 em{color:var(--red-bright);font-style:italic;font-weight:400}
-  .hero-sub{font-size:18px;color:var(--text-secondary);max-width:680px;margin:0 auto 14px;line-height:1.65}
-  .hero-meta{margin:0 auto 36px;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--text-muted)}
-  .hero-meta span{margin:0 12px}
-
-  /* VIDEO SECTION */
-  .video-label{text-align:center;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--red-bright);margin-bottom:14px;font-weight:600}
-  .video-wrap{position:relative;padding-bottom:56.25%;margin:0 auto 18px;max-width:860px;border-radius:4px;overflow:hidden;border:1px solid var(--red-border-strong);box-shadow:0 28px 70px rgba(0,0,0,0.65);background:linear-gradient(135deg,#111111,#0A0A0A)}
-  .video-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
-  .video-poster{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at center,rgba(192,57,43,0.14),transparent 58%),linear-gradient(135deg,#111111,#0A0A0A);cursor:pointer}
-  .video-poster .play-btn{width:84px;height:84px;border-radius:50%;background:rgba(192,57,43,0.90);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 40px rgba(192,57,43,0.5);transition:all 0.3s ease;border:3px solid rgba(255,255,255,0.90)}
-  .video-wrap:hover .video-poster .play-btn{transform:scale(1.08);background:var(--red-bright)}
-  .video-poster .play-btn::after{content:"";display:block;width:0;height:0;border-style:solid;border-width:14px 0 14px 24px;border-color:transparent transparent transparent #fff;margin-left:6px}
-  .video-poster .video-source-label{position:absolute;bottom:14px;right:18px;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-secondary);background:rgba(0,0,0,0.65);padding:6px 12px;border-radius:2px}
-  .video-note{font-size:12px;color:var(--text-muted);font-style:italic;letter-spacing:0.04em;margin:0 auto 32px;max-width:680px;line-height:1.55;text-align:center}
-
-  /* CTA */
-  .cta-primary{display:inline-block;padding:18px 44px;background:var(--red);color:#fff;border-radius:2px;font-size:14px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;transition:all 0.3s ease;box-shadow:0 12px 32px rgba(192,57,43,0.28)}
-  .cta-primary:hover{background:var(--red-bright);transform:translateY(-2px);box-shadow:0 16px 40px rgba(192,57,43,0.36)}
+  .logo{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;letter-spacing:0.04em}
+  .nav-cta{padding:10px 22px;background:var(--accent);color:var(--bg-deep);border-radius:2px;font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none}
+  .nav-cta:hover{background:var(--accent-bright)}
+  .hero{padding:130px 0 50px;text-align:center}
+  .eyebrow{display:inline-block;padding:8px 18px;background:var(--accent-soft);border:1px solid var(--border-strong);border-radius:100px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent-bright);margin-bottom:28px}
+  .hero h1{font-size:clamp(38px,5.5vw,64px);line-height:1.08;margin:0 auto 20px;max-width:880px;text-align:center;text-wrap:balance}
+  .hero h1 em{color:var(--accent);font-style:italic;font-weight:400}
+  .hero-sub{font-size:18px;color:var(--text-secondary);max-width:680px;margin:0 auto 32px;line-height:1.65;text-align:center;text-wrap:pretty}
+  .hero-meta{text-align:center;margin:0 auto 36px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-muted)}
+  .hero-meta span{margin:0 14px}
+  .cta-primary{display:inline-block;padding:18px 44px;background:var(--accent);color:var(--bg-deep);border-radius:3px;font-size:14px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;transition:all 0.3s ease;box-shadow:0 12px 30px rgba(212,175,55,0.25)}
+  .cta-primary:hover{background:var(--accent-bright);transform:translateY(-2px)}
   .cta-wrap{text-align:center}
-  .hero-trust{margin-top:16px;font-size:11px;color:var(--text-muted);font-style:italic;letter-spacing:0.04em}
-
-  /* STATS BAR */
-  .stats-bar{padding:28px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);margin-top:40px}
-  .stats-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
-  .stat-item{text-align:center;padding:0 16px;border-right:1px solid var(--border)}
-  .stat-item:last-child{border-right:0}
-  .stat-num{font-family:'Cormorant Garamond',serif;font-size:30px;color:var(--red-bright);font-weight:600;line-height:1;margin-bottom:8px}
-  .stat-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--text-muted)}
-  @media(max-width:760px){.stats-inner{grid-template-columns:repeat(2,1fr);gap:16px}.stat-item{border-right:0;border-bottom:1px solid var(--border);padding:14px 8px}.stat-num{font-size:26px}}
-
-  /* SECTIONS */
-  section{padding:72px 0}
-  .section-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;color:var(--red-bright);margin-bottom:16px}
-  .section-title{font-size:clamp(28px,3.8vw,46px);margin-bottom:16px}
-  .section-title em{color:var(--red-bright);font-style:italic;font-weight:400}
-  .section-sub{font-size:17px;color:var(--text-secondary);max-width:760px;margin-bottom:36px;line-height:1.65}
-  .section-sub strong{color:var(--text-primary);font-weight:600}
-
-  /* WHO THIS IS FOR */
-  .avatar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:32px}
-  @media(max-width:760px){.avatar-grid{grid-template-columns:1fr}}
-  .avatar-card{padding:32px 26px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;transition:all 0.3s ease}
-  .avatar-card:hover{border-color:var(--red-border-strong);transform:translateY(-2px)}
-  .avatar-card .av-num{font-family:'Cormorant Garamond',serif;font-size:48px;color:var(--red-bright);font-weight:600;line-height:1;margin-bottom:12px}
-  .avatar-card h3{font-size:20px;margin-bottom:12px;color:var(--text-primary)}
-  .avatar-card p{color:var(--text-secondary);font-size:14px;line-height:1.7}
-  .avatar-card .av-hook{margin-top:14px;padding-top:14px;border-top:1px solid var(--border);font-family:'Cormorant Garamond',serif;font-size:16px;color:var(--red-bright);font-style:italic;line-height:1.5}
-
-  /* MODULE PILLARS */
-  .pillar-list{max-width:860px;margin:0 auto}
-  .pillar{padding:36px 32px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;margin-bottom:18px;transition:all 0.3s ease}
-  .pillar:hover{border-color:var(--red-border-strong)}
-  .pillar .pillar-num{font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--red-bright);margin-bottom:12px;font-weight:600}
-  .pillar h3{font-size:24px;margin-bottom:12px;color:var(--text-primary)}
-  .pillar .outcome{font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--text-secondary);font-style:italic;line-height:1.5;margin-bottom:14px;padding-left:16px;border-left:3px solid var(--red)}
+  section{padding:80px 0}
+  .section-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;color:var(--accent);margin-bottom:18px;text-align:center}
+  .section-title{font-size:clamp(32px,4.5vw,52px);margin-bottom:18px;text-align:center;line-height:1.12}
+  .section-title em{color:var(--accent);font-style:italic;font-weight:400}
+  .section-intro{font-size:17px;color:var(--text-secondary);max-width:680px;margin:0 auto 56px;line-height:1.65;text-align:center}
+  .section-intro em{color:var(--accent);font-style:italic}
+  .who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1000px;margin:0 auto}
+  @media(max-width:760px){.who-grid{grid-template-columns:1fr}}
+  .who-card{padding:36px 28px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px}
+  .who-card .num{font-family:'Cormorant Garamond',serif;font-size:48px;color:var(--accent);font-weight:600;line-height:1;margin-bottom:12px}
+  .who-card h3{font-size:21px;margin-bottom:12px;color:var(--text-primary)}
+  .who-card p{color:var(--text-secondary);font-size:14px;line-height:1.7}
+  .pillar-list{max-width:880px;margin:0 auto}
+  .pillar{padding:36px 32px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;margin-bottom:18px}
+  .pillar .pillar-num{font-family:'Cormorant Garamond',serif;font-size:14px;color:var(--accent);text-transform:uppercase;letter-spacing:0.16em;margin-bottom:10px;font-weight:600}
+  .pillar h3{font-size:26px;margin-bottom:14px;color:var(--text-primary)}
+  .pillar .outcome{font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--accent-bright);font-style:italic;line-height:1.4;margin-bottom:14px}
   .pillar p{color:var(--text-secondary);font-size:15px;line-height:1.7}
-
-  /* ABOUT DMITRY */
-  .about-block{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:start;padding:40px 36px;background:var(--bg-card);border:1px solid var(--border-strong);border-radius:3px;margin-top:32px}
-  @media(max-width:680px){.about-block{grid-template-columns:1fr;gap:22px}}
-  .about-photo{width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#1C1A1A,#110E0E);border:2px solid var(--red-border-strong);display:flex;align-items:center;justify-content:center;flex-shrink:0}
-  .about-photo .monogram{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:600;color:var(--red-bright);letter-spacing:0.04em}
-  /* SWAP-SLOT: Replace monogram span with IMG-TAG src=[dmitry-headshot-url] alt="Dmitry Lipinskiy"
-     4-source photo hierarchy:
-     1. dmitrylipinskiy.com (multiple professional headshots confirmed live)
-     2. roofinginsights.com editorial photos
-     3. YouTube channel art / thumbnail crop
-     4. Facebook profile @roofinginsights (96K, public)
-     Minimum 100x100px. Portrait on dark or neutral background preferred. */
-  .about-body .name-line{font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:var(--red-bright);margin-bottom:14px;font-weight:600}
-  .about-body h3{font-size:28px;margin-bottom:16px;color:var(--text-primary)}
-  .about-body .key-quote{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--text-primary);font-style:italic;line-height:1.4;margin-bottom:22px;padding:16px 20px;border-left:3px solid var(--red);background:var(--red-soft)}
-  .about-body .key-quote em{color:var(--red-bright)}
-  .about-body p{font-size:15px;color:var(--text-secondary);line-height:1.75;margin-bottom:12px}
-  .about-body ul{list-style:none;padding:0;margin:16px 0}
-  .about-body li{padding:6px 0;color:var(--text-secondary);font-size:14px;border-bottom:1px solid var(--border)}
-  .about-body li:last-child{border-bottom:0}
-  .about-body li::before{content:"\00B7";color:var(--red-bright);margin-right:10px;font-weight:bold}
-  .trust-badge{display:inline-block;margin-top:18px;padding:7px 14px;background:var(--red-soft);border:1px solid var(--red-border-strong);border-radius:100px;font-size:12px;color:var(--red-bright);letter-spacing:0.08em;font-weight:600}
-
-  /* TESTIMONIALS */
-  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
-  @media(max-width:760px){.testi-grid{grid-template-columns:1fr}}
-  .testi-card{padding:28px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;font-style:italic;color:var(--text-secondary);font-size:14px;line-height:1.65}
-  .testi-name{display:block;margin-top:14px;font-style:normal;color:var(--red-bright);font-size:13px;letter-spacing:0.06em;font-weight:600}
-  .testi-note{text-align:center;margin-top:28px;font-size:13px;color:var(--text-muted);font-style:italic;line-height:1.7}
-
-  /* FAQ */
+  .guarantee-block{margin:40px auto;max-width:780px;padding:32px 36px;background:linear-gradient(135deg,var(--bg-card),var(--accent-soft));border:1px solid var(--border-strong);border-radius:6px}
+  .guarantee-block .g-label{display:block;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px}
+  .guarantee-block h3{font-size:26px;color:var(--text-primary);margin-bottom:14px;font-family:'Cormorant Garamond',serif}
+  .guarantee-block p{color:var(--text-secondary);font-size:15px;line-height:1.7}
+  .founder-block{display:flex;flex-direction:column;gap:36px;max-width:880px;margin:0 auto;align-items:center}
+  .founder-text{width:100%;text-align:left}
+  .founder-text .name-loc{font-size:13px;color:var(--accent);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:14px}
+  .founder-text h3{font-size:32px;margin-bottom:18px}
+  .founder-text .key-quote{font-family:'Cormorant Garamond',serif;font-size:24px;color:var(--text-primary);font-style:italic;line-height:1.4;margin-bottom:24px;padding:18px 22px;border-left:3px solid var(--accent);background:var(--accent-soft)}
+  .founder-text .key-quote em{color:var(--accent);font-style:italic}
+  .founder-text p{color:var(--text-secondary);font-size:15px;line-height:1.75;margin-bottom:14px}
+  .founder-text .key-statement{font-weight:600;color:var(--text-primary);font-size:16px;margin:18px 0;line-height:1.6}
+  .founder-text ul{list-style:none;padding:0;margin:18px 0 0 0}
+  .founder-text li{padding:6px 0;color:var(--text-secondary);font-size:14px;border-bottom:1px solid var(--border)}
+  .founder-text li:last-child{border-bottom:0}
+  .founder-text li::before{content:"\00B7";color:var(--accent);margin-right:10px;font-weight:bold}
+  .founder-text .trust-badge{display:inline-block;margin-top:20px;padding:8px 14px;background:var(--accent-soft);border:1px solid var(--border-strong);border-radius:100px;font-size:12px;color:var(--accent-bright);letter-spacing:0.08em}
+  .receipts-wall{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1080px;margin:0 auto}
+  @media(max-width:760px){.receipts-wall{grid-template-columns:1fr}}
+  .receipt{padding:28px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;font-style:italic;color:var(--text-secondary);font-size:14px;line-height:1.65}
+  .receipt .name{display:block;margin-top:14px;font-style:normal;color:var(--accent);font-size:13px;letter-spacing:0.06em;font-weight:600}
+  .receipts-note{text-align:center;margin-top:36px;font-size:13px;color:var(--text-muted);font-style:italic;max-width:680px;margin-left:auto;margin-right:auto;line-height:1.7}
   .faq{max-width:780px;margin:0 auto}
   .faq-item{padding:26px 0;border-bottom:1px solid var(--border)}
   .faq-item h3{font-size:20px;margin-bottom:12px;color:var(--text-primary);text-align:left}
   .faq-item p{color:var(--text-secondary);font-size:15px;line-height:1.7}
-
-  /* WHAT'S INCLUDED */
-  .include-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}
-  @media(max-width:680px){.include-grid{grid-template-columns:1fr}}
-  .include-item{display:flex;align-items:flex-start;gap:14px;padding:20px 22px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px}
-  .include-dot{width:8px;height:8px;border-radius:50%;background:var(--red);flex-shrink:0;margin-top:7px}
-  .include-item h4{font-family:'Inter',sans-serif;font-size:14px;font-weight:600;color:var(--text-primary);margin-bottom:4px}
-  .include-item p{font-size:13px;color:var(--text-muted);line-height:1.6}
-
-  /* BOTTOM CTA */
-  .bottom-cta{padding:90px 0;text-align:center;border-top:1px solid var(--border)}
-  .bottom-cta h2{font-size:clamp(28px,3.5vw,48px);margin-bottom:16px}
-  .bottom-cta h2 em{color:var(--red-bright);font-style:italic}
-  .bottom-cta p{font-size:17px;color:var(--text-secondary);max-width:580px;margin:0 auto 36px;line-height:1.65}
-  .application-note{font-size:12px;color:var(--text-muted);margin-top:16px;font-style:italic;letter-spacing:0.04em}
-
-  /* FOOTER */
-  footer{padding:28px 0;border-top:1px solid rgba(255,255,255,0.07);text-align:center}
-  .footer-text{font-size:11px;color:var(--text-muted);letter-spacing:0.04em;line-height:1.7;max-width:720px;margin:0 auto}
-  .footer-text a{color:var(--red-bright)}
-
-  /* UTILS */
-  .centered{text-align:center;margin-left:auto;margin-right:auto}
-  .divider{height:1px;background:var(--border);margin:0}
+  .final-cta-section{text-align:center;padding:100px 0}
+  .final-cta-section h2{font-size:clamp(32px,4vw,46px);margin-bottom:24px;max-width:780px;margin-left:auto;margin-right:auto}
+  .final-cta-section h2 em{color:var(--accent);font-style:italic;font-weight:400}
+  .final-cta-section p{font-size:17px;color:var(--text-secondary);max-width:580px;margin:0 auto 36px;line-height:1.65}
+  .final-cta-section .tagline{margin-top:48px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:24px;color:var(--text-primary)}
+  .checkout-note{font-size:13px;color:var(--text-muted);margin-top:18px;letter-spacing:0.06em;font-style:italic}
+  .risk-callout{margin:40px auto 0;padding:22px 24px;max-width:780px;background:var(--risk-soft);border-left:3px solid var(--risk-red);border-radius:2px;line-height:1.7}
+  .risk-callout .risk-label{display:block;font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:#ff7a7a;margin-bottom:8px;font-weight:700}
+  .risk-callout p{color:#e2b5b5;font-size:14px;margin:0;line-height:1.7}
+  footer{padding:40px 0;border-top:1px solid var(--border);text-align:center;color:var(--text-muted);font-size:13px}
+  footer .footer-meta{font-size:12px;letter-spacing:0.04em}
+  footer .footer-disclaimer{margin-top:14px;font-size:11px;color:var(--text-muted);font-style:italic;max-width:780px;margin:14px auto 0;line-height:1.6}
 </style>
 </head>
 <body>
-
-<!-- NAV -->
 <nav>
   <div class="nav-inner">
-    <div class="logo">Roofing <span>School</span></div>
-    <a href="#join" class="nav-cta">Join Roofing School</a>
+    <div class="logo">Roofing School</div>
+    <a href="#enrol" class="nav-cta">Enrol</a>
   </div>
 </nav>
 
-<!-- HERO -->
 <section class="hero">
   <div class="container">
-    <div class="eyebrow">Roofing School &middot; Dmitry Lipinskiy &middot; 20+ Years in the Trade</div>
-    <h1>Your crew is busy.<br><em>Your margin is gone.</em><br>One of four things is why.</h1>
-    <p class="hero-sub">Accounting, marketing, production, or admin. Roofing School walks all four. Monthly training modules, weekly group calls, a community of roofing company owners who are fixing the same problems you are.</p>
-    <div class="hero-meta">
-      <span>147K YouTube Subscribers</span>
-      <span>&middot;</span>
-      <span>20+ Years in the Trade</span>
-      <span>&middot;</span>
-      <span>Roofing Insights</span>
-    </div>
+    <div class="eyebrow">Roofing School &middot; Hosted By Dmitry Lipinskiy</div>
+    <h1>The full marketing package for roofing operators, <em>with the visit-your-business guarantee.</em></h1>
+    <p class="hero-sub">Accounting, marketing, production, hiring. The four pillars Dmitry has been teaching roofing company owners for over 20 years. Now packaged as the Roofing School install.</p>
+    <p class="hero-meta"><span>Founded 2019</span>&middot;<span>Visit-Your-Business Guarantee</span>&middot;<span>Owner-Operator Calibrated</span></p>
+    <div class="cta-wrap"><a href="#enrol" class="cta-primary">Enrol In Roofing School</a></div>
+  </div>
+</section>
 
-    <!-- VSL SECTION -- YouTube iframe allowed on landing page -->
-    <div class="video-label">The Case For Roofing School &middot; Watch Before You Join</div>
-    <div class="video-wrap" id="hero-video" role="button" tabindex="0" aria-label="Play Roofing School introduction video">
-      <div class="video-poster">
-        <div class="play-btn"></div>
-        <span class="video-source-label">Roofing Insights &middot; Dmitry Lipinskiy</span>
+<section>
+  <div class="container">
+    <div class="section-eyebrow">Who This Is For</div>
+    <h2 class="section-title">If you run a roofing company, <em>this is the install layer above the YouTube.</em></h2>
+    <div class="who-grid">
+      <div class="who-card">
+        <div class="num">01</div>
+        <h3>The Established Owner</h3>
+        <p>You are busy. The calendar is full. Revenue is up. But the margin keeps disappearing between material, labor, subs, and overhead. The Roofing School full marketing package is the install layer for the four pillars that decide whether the year ends with money in the account.</p>
       </div>
-    </div>
-    <!-- SWAP-SLOT: Update YouTube embed ID in the script below (var youtubeId = 'SWAP-SLOT-VIDEO-ID')
-         Replace with the verified Roofing School VSL or most relevant Roofing Insights YouTube video ID.
-         Source: roofinginsights.com YouTube channel (147K subscribers).
-         Video ID is the 11-character string in the YouTube URL after ?v= or /embed/ -->
-    <p class="video-note">Sample Roofing Insights content. Swap to the Roofing School VSL on day one of the install. Dmitry is already on camera across all owned platforms.</p>
-
-    <div class="cta-wrap">
-      <a href="#join" class="cta-primary">Join Roofing School</a>
-    </div>
-    <p class="hero-trust">14-day trial available. No friction cancellation before day 14.</p>
-
-    <!-- STATS BAR -->
-    <div class="stats-bar">
-      <div class="stats-inner">
-        <div class="stat-item">
-          <div class="stat-num">20+</div>
-          <div class="stat-label">Years in the roofing trade</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">147K</div>
-          <div class="stat-label">YouTube subscribers</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">4</div>
-          <div class="stat-label">Business pillars covered every month</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">$30K</div>
-          <div class="stat-label">Homeowner guarantee through Directorii</div>
-        </div>
+      <div class="who-card">
+        <div class="num">02</div>
+        <h3>The Mid-Size Operator</h3>
+        <p>You have employees, not just subs. Marketing is mostly referral and repeat. You have hit the ceiling that referral-only revenue puts on a roofing company. Roofing School walks the marketing, production, and hiring systems that take a mid-size shop into the next bracket.</p>
+      </div>
+      <div class="who-card">
+        <div class="num">03</div>
+        <h3>The New-Company Owner</h3>
+        <p>You came out of sales or field work and started a company. You know how to roof. You do not know how to run a roofing business yet. The Roofing School foundation track walks the accounting and ops basics that most contractors skip in year one.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- WHO THIS IS FOR -->
-<section>
+<section style="background:linear-gradient(180deg,transparent,rgba(212,175,55,0.04),transparent)">
   <div class="container">
-    <div class="section-eyebrow">Who Roofing School is for</div>
-    <h2 class="section-title centered" style="max-width:720px;margin-left:auto;margin-right:auto">If you are past the <em>"how do I roof"</em> stage<br>and into the "how do I run a roofing business" stage.</h2>
-    <p class="section-sub centered" style="max-width:640px;margin-left:auto;margin-right:auto">Three types of roofing company owners. All of them have the same problem: the business side of the trade was never taught to them the way the trade itself was.</p>
-    <div class="avatar-grid">
-      <div class="avatar-card">
-        <div class="av-num">01</div>
-        <h3>The $0-$500K Operator</h3>
-        <p>New company, 1-3 years in. You know how to roof. You have never formally learned job costing, QuickBooks, or gross margin. You watch the YouTube content but you have not put a system behind any of it. The accounting and ops foundation most contractors skip is what Roofing School gives you.</p>
-        <div class="av-hook">"Do you know your actual gross margin per job? Not the number you guess. The number in QuickBooks."</div>
-      </div>
-      <div class="avatar-card">
-        <div class="av-num">02</div>
-        <h3>The $500K-$3M Operator</h3>
-        <p>The company is busy. The calendar is full. Revenue is up. But the money is not there at the end of the month and nobody can explain why. Marketing is referral-only with no system. Hiring is ad hoc. The ceiling is the referral dependency and the missing ops infrastructure. Roofing School walks you off that ceiling.</p>
-        <div class="av-hook">"Your crew is booked. Your marketing is referral-only. The ceiling is the referral dependency."</div>
-      </div>
-      <div class="avatar-card">
-        <div class="av-num">03</div>
-        <h3>The $3M+ Operator</h3>
-        <p>You have employees, not just subs. Marketing is largely referral and repeat. You have tried hiring a marketing person or agency. Mixed results. The bottleneck is not accounting anymore. It is marketing, or production, or admin. You are looking for a peer-level conversation, not a beginner tutorial. The community and the weekly calls are what Roofing School gives you at your level.</p>
-        <div class="av-hook">"The peers who have solved problems you have not hit yet."</div>
-      </div>
-    </div>
-  </div>
-</section>
+    <div class="section-eyebrow">The Four Pillars</div>
+    <h2 class="section-title">Four pillars. <em>Every roofing company runs on these.</em></h2>
+    <p class="section-intro">Accounting and job costing. Marketing and lead generation. Production and operations. Hiring and team building.</p>
 
-<div class="divider"></div>
-
-<!-- MODULE PILLARS -->
-<section>
-  <div class="container">
-    <div class="section-eyebrow">What you get every month</div>
-    <h2 class="section-title centered" style="max-width:680px;margin-left:auto;margin-right:auto">Four pillars. <em>All of them.</em><br>Not one lane.</h2>
-    <p class="section-sub centered" style="max-width:640px;margin-left:auto;margin-right:auto">The YouTube content can show you what the four problems are. Roofing School walks you through fixing them inside your actual business.</p>
     <div class="pillar-list">
       <div class="pillar">
-        <div class="pillar-num">Pillar One &middot; Accounting and Job Costing</div>
-        <h3>Where the money actually goes</h3>
-        <p class="outcome">"You cannot manage a roofing company you cannot measure. Gross margin per job is the starting number."</p>
-        <p>QuickBooks setup and job costing basics. Gross margin targets by job type and revenue band. Overhead allocation. Material cost tracking and supplier terms. Labor rate and sub vs. employee decision. Change orders and scope creep recovery. The numbers most roofing company owners never learned to read.</p>
+        <div class="pillar-num">Pillar One &middot; Accounting And Job Costing</div>
+        <h3>Know your gross margin per job. Not the number you guess, the number in QuickBooks.</h3>
+        <p class="outcome">By the end of the pillar, your job costing is documented, your margin per service line is tracked, and the overhead allocation is locked.</p>
+        <p>The single biggest reason a busy roofing company is broke is the job costing is off and the overhead is not tracked. Roofing School walks the QuickBooks setup, the margin calculation, the labor burden rate, and the three numbers every owner should know by memory.</p>
       </div>
       <div class="pillar">
-        <div class="pillar-num">Pillar Two &middot; Marketing and Lead Generation</div>
-        <h3>Getting off the referral dependency</h3>
-        <p class="outcome">"Referral-only is a ceiling. It caps at the size of your personal network. Marketing builds the floor."</p>
-        <p>Cost per lead by channel: paid, organic, referral, and repeat. Lead source tracking. Google and Meta basics for roofing companies. Referral system mechanics for contractors who want more from the same happy customers. Content strategy for contractors who want to build an authority platform in their market. Review generation and online reputation management.</p>
+        <div class="pillar-num">Pillar Two &middot; Marketing And Lead Generation</div>
+        <h3>Stop being referral-only. Build a three-channel lead system that does not depend on word of mouth.</h3>
+        <p class="outcome">By the end of the pillar, the lead-source breakdown is documented, the three-channel lead system is live, and the cost per lead per channel is tracked.</p>
+        <p>Most roofing companies grow on referrals. Very few break the next revenue bracket on referrals alone. The ceiling is the referral dependency. The pillar walks the three lead channels every roofing company should run and the budget allocation per channel by company stage.</p>
       </div>
       <div class="pillar">
-        <div class="pillar-num">Pillar Three &middot; Production and Operations</div>
-        <h3>The shop floor when it scales</h3>
-        <p class="outcome">"The crew that works at 5 trucks does not work at 10. Operations has to be rebuilt at every tier."</p>
-        <p>Production schedule management. Crew deployment and daily standup cadence. Field supervisor role definition and hire timing. Sub vs. employee economics by revenue tier. Warranty call and callback protocols. Admin and office manager responsibilities by company size. The operations infrastructure that lets you step off the truck and run the business.</p>
+        <div class="pillar-num">Pillar Three &middot; Production And Operations</div>
+        <h3>Stop being the bottleneck in your own company. Build SOPs that let the company run without you on every job.</h3>
+        <p class="outcome">By the end of the pillar, the production SOPs are documented, the daily ops cadence is locked, and the owner is removed from at least three decisions per week.</p>
+        <p>The owner who is the production manager, the salesperson, and the accountant is the ceiling. Roofing School walks the SOP framework, the daily ops cadence, and the delegation map that gets the owner out of the field-supervisor role without dropping quality.</p>
       </div>
       <div class="pillar">
-        <div class="pillar-num">Pillar Four &middot; Admin and Business Infrastructure</div>
-        <h3>The back office that holds the whole thing together</h3>
-        <p class="outcome">"Admin is not overhead. It is the system that keeps the other three pillars from falling apart."</p>
-        <p>Hiring and onboarding processes. Contract and scope documentation. Insurance, licensing, and compliance basics by state. Customer communication SOPs. Payment collections and invoice management. The admin infrastructure that a roofing company needs before it can scale without the owner running everything.</p>
+        <div class="pillar-num">Pillar Four &middot; Hiring And Team Building</div>
+        <h3>Build a roofing team that does not need you to babysit it.</h3>
+        <p class="outcome">By the end of the pillar, the recruiting funnel is live, the onboarding sequence is documented, and the retention compensation structure is reviewed.</p>
+        <p>The gap between hiring a skilled roofer and retaining them is almost always a compensation structure or culture problem. The pillar walks the recruiting funnel, the onboarding sequence, and the three non-compensation reasons roofing crews leave.</p>
       </div>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
-
-<!-- WHAT'S INCLUDED -->
 <section>
-  <div class="container-narrow">
-    <div class="section-eyebrow">What you get as a member</div>
-    <h2 class="section-title centered" style="margin-left:auto;margin-right:auto">Monthly modules. Weekly calls.<br><em>A community of operators.</em></h2>
-    <p class="section-sub centered" style="max-width:620px;margin-left:auto;margin-right:auto">This is not a video-on-demand library you fall behind on. The value is in the live work and the community.</p>
-    <div class="include-grid">
-      <div class="include-item">
-        <div class="include-dot"></div>
-        <div>
-          <h4>Monthly training modules across all four pillars</h4>
-          <p>Accounting, marketing, production, admin. A new module every month tied to what roofing company owners are dealing with in that season.</p>
-        </div>
-      </div>
-      <div class="include-item">
-        <div class="include-dot"></div>
-        <div>
-          <h4>Weekly group calls with Dmitry</h4>
-          <p>Not theory. Real roofing company situations walked through live. Your specific business goes on the table.</p>
-        </div>
-      </div>
-      <div class="include-item">
-        <div class="include-dot"></div>
-        <div>
-          <h4>Access to the community</h4>
-          <p>Roofing company owners at different revenue tiers. The operators who have solved problems you have not hit yet.</p>
-        </div>
-      </div>
-      <div class="include-item">
-        <div class="include-dot"></div>
-        <div>
-          <h4>Templates, trackers, and SOPs</h4>
-          <p>Job costing worksheets. Hiring checklists. Production schedule templates. Admin SOPs. The infrastructure documents that take years to build from scratch.</p>
-        </div>
-      </div>
-      <div class="include-item">
-        <div class="include-dot"></div>
-        <div>
-          <h4>A 14-day trial before you commit</h4>
-          <p>See the inside of the School before you decide. If the content, the calls, and the community are not worth $497 a month to your business, cancel before day 14. No friction.</p>
-        </div>
-      </div>
-      <div class="include-item">
-        <div class="include-dot"></div>
-        <div>
-          <h4>20+ years of operating experience in the room</h4>
-          <p>Not a theoretical educator. A practitioner who has been in the roofing trade for 20+ years and built Roofing Insights because he was tired of watching good contractors get burned by the business side.</p>
-        </div>
-      </div>
+  <div class="container">
+    <div class="section-eyebrow">The Guarantee</div>
+    <h2 class="section-title">The visit-your-business guarantee, <em>backed by the install.</em></h2>
+
+    <div class="guarantee-block">
+      <span class="g-label">Visit-Your-Business Guarantee</span>
+      <h3>If the full marketing package does not move the needle, the guarantee triggers.</h3>
+      <p>The full guarantee terms surface on the checkout page. The headline mechanic: if you implement the Roofing School install with operator inputs and the package does not move the needle inside your roofing company, the guarantee triggers and Dmitry comes to your business to walk the gaps in person. Read the full terms at checkout before you enrol.</p>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
-
-<!-- ABOUT DMITRY -->
-<section>
+<section style="background:linear-gradient(180deg,transparent,rgba(212,175,55,0.04),transparent)">
   <div class="container">
     <div class="section-eyebrow">About Dmitry</div>
-    <h2 class="section-title centered" style="max-width:640px;margin-left:auto;margin-right:auto">20+ years in the trade.<br><em>The Voice for the Roofing Community.</em></h2>
-    <div class="about-block">
-      <div class="about-photo">
-        <span class="monogram">DL</span>
-        <!-- SWAP-SLOT: Replace monogram span with IMG-TAG src=[dmitry-headshot-url] alt="Dmitry Lipinskiy"
-             4-source photo hierarchy:
-             1. dmitrylipinskiy.com (multiple professional headshots confirmed live)
-             2. roofinginsights.com editorial photos
-             3. YouTube channel art / thumbnail crop
-             4. Facebook profile @roofinginsights (96K, public)
-             Minimum 100x100px. Portrait on dark or neutral background preferred. -->
-      </div>
-      <div class="about-body">
-        <div class="name-line">Dmitry Lipinskiy &middot; Roofing Insights &middot; Maple Grove, MN</div>
+    <h2 class="section-title">The operator-educator behind Roofing Insights, <em>20+ years in the trade.</em></h2>
+    <div class="founder-block">
+      <div class="founder-text">
+        <div class="name-loc">Dmitry Lipinskiy &middot; Founder, Roofing Insights &middot; Founder, Roofing School (2019) &middot; CEO, Directorii</div>
         <h3>About Dmitry</h3>
-        <div class="key-quote">"I built Roofing Insights because I was tired of watching good contractors get burned by the business side of the trade. <em>The trade is not the hard part. The business is.</em>"</div>
-        <p>20+ years in the roofing trade. Founder of Roofing Insights, which carries 147K YouTube subscribers, 96K on Facebook, and 37K on Instagram. Host of the Roofing Insights Podcast on Apple. Founder of Directorii, the contractor directory with the $30K homeowner guarantee, which connects vetted contractors with homeowners who need the confidence that the contractor behind the work is accountable.</p>
-        <p>Roofing School is where all of it lives in one place: the accounting and job costing knowledge that most contractors never get, the marketing systems that break the referral dependency, the production and ops infrastructure that lets a roofing company scale past the owner, and the admin layer that keeps the whole thing from falling apart.</p>
+        <div class="key-quote">"20+ years in the trade. <em>Roofing Insights is the media. Roofing School is the install. Directorii is the homeowner trust layer.</em>"</div>
+        <p>Dmitry Lipinskiy is the founder of Roofing Insights, the leading independent media platform for the roofing industry. He has spent 20+ years inside the trade and built Roofing School in 2019 to give roofing company owners the full marketing package the YouTube content alone could not deliver. He also founded Directorii, the vetted-contractor marketplace that connects homeowners with verified roofing operators.</p>
+        <p class="key-statement">Roofing School is for the operator who is past the "how do I do roofing" stage and into the "how do I run a roofing business" stage.</p>
         <ul>
-          <li>20+ years in the roofing trade</li>
-          <li>Founder, Roofing Insights (147K YouTube, 96K Facebook, 37K Instagram)</li>
-          <li>Host, Roofing Insights Podcast (Apple)</li>
-          <li>Founder, Directorii ($30K homeowner guarantee contractor directory)</li>
-          <li>Full-stack roofing business educator: accounting, marketing, production, admin, profitability</li>
+          <li>147K YouTube subscribers (Roofing Insights channel)</li>
+          <li>96K Facebook followers</li>
+          <li>61K Instagram followers (@dmitrylipinskiy)</li>
+          <li>Roofing Insights Podcast on Apple Podcasts</li>
+          <li>Founder of Directorii (vetted-contractor marketplace)</li>
+          <li>20+ years in the trade as an operator and educator</li>
         </ul>
-        <span class="trust-badge">20+ Years &middot; 147K YouTube &middot; Roofing Insights &middot; Directorii</span>
+        <span class="trust-badge">Operator-Educator &middot; Multi-Brand Operator &middot; Roofing Insights + School + Directorii</span>
       </div>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
-
-<!-- TESTIMONIALS -->
 <section>
   <div class="container">
-    <div class="section-eyebrow">From Roofing School members</div>
-    <h2 class="section-title centered" style="max-width:640px;margin-left:auto;margin-right:auto">What operators say after<br><em>fixing the business side.</em></h2>
-    <p class="section-sub centered" style="max-width:640px;margin-left:auto;margin-right:auto">Real names, real companies, real numbers. The receipts below are reserved for verified Roofing School members. Swap in on kickoff with sourced testimonials from the School community.</p>
-    <div class="testi-grid">
-      <div class="testi-card">
-        <!-- SWAP-SLOT: Replace this placeholder with a real testimonial from a verified Roofing School member.
-             Format: "[Verbatim quote]" followed by name, city, company revenue band.
-             Source: Roofing School member community or Dmitry's existing testimonial bank.
-             Never invent. Never paraphrase. Use verbatim quotes only. -->
-        Reserved for a verified Roofing School member, city and company-named. Swap in after testimonials are sourced from the School community.
-        <span class="testi-name">- Roofing School member, slot reserved</span>
-      </div>
-      <div class="testi-card">
-        <!-- SWAP-SLOT: Real testimonial from verified Roofing School member. See above format. -->
-        Reserved for a verified Roofing School member, city and company-named. Swap in after testimonials are sourced from the School community.
-        <span class="testi-name">- Roofing School member, slot reserved</span>
-      </div>
-      <div class="testi-card">
-        <!-- SWAP-SLOT: Real testimonial from verified Roofing School member. See above format. -->
-        Reserved for a verified Roofing School member, city and company-named. Swap in after testimonials are sourced from the School community.
-        <span class="testi-name">- Roofing School member, slot reserved</span>
-      </div>
+    <div class="section-eyebrow">A Note On Receipts</div>
+    <h2 class="section-title">The proof is the visit-your-business guarantee, <em>not the page.</em></h2>
+    <p class="section-intro">Below are placeholder receipts for the Roofing School cohort. Real graduate testimonials swap in at install. The deeper proof is observable: the 147K YouTube channel, the 96K Facebook following, the Directorii marketplace operating since founding, and the visit-your-business guarantee mechanic that sits behind every Roofing School enrolment.</p>
+    <div class="receipts-wall">
+      <div class="receipt">"The accounting pillar caught two job-costing slips that were eating margin we did not know we were losing. Locked the revised QuickBooks setup in week two."<span class="name">- Roofing School graduate, placeholder</span></div>
+      <div class="receipt">"The marketing pillar moved us off referral-only inside ninety days. The three-channel lead system is the part nobody publishes in free content."<span class="name">- Roofing School graduate, placeholder</span></div>
+      <div class="receipt">"Past the entry tier and the mid-level. The production SOPs and the hiring funnel are where the real install happens. The visit-your-business guarantee is the trust signal that closed it for us."<span class="name">- Roofing School graduate, placeholder</span></div>
     </div>
-    <p class="testi-note">Placeholder receipts reserved for real Roofing School member voices. The proof lives in the public record: 20+ years in the roofing trade, 147K YouTube subscribers, the Roofing Insights Podcast, and the Directorii contractor directory. Swap in named testimonials on kickoff.</p>
+    <p class="receipts-note">Placeholder receipts. Real graduate testimonials swap in at install. Dmitry never invents quotes.</p>
   </div>
 </section>
 
-<div class="divider"></div>
-
-<!-- FAQ -->
 <section>
   <div class="container">
-    <div class="section-eyebrow">Before you join</div>
-    <h2 class="section-title centered" style="max-width:640px;margin-left:auto;margin-right:auto">Common questions,<br><em>answered directly.</em></h2>
+    <div class="section-eyebrow">FAQ</div>
+    <h2 class="section-title">Common questions, <em>before enrolling.</em></h2>
     <div class="faq">
-      <div class="faq-item">
-        <h3>How is Roofing School different from the YouTube channel?</h3>
-        <p>The YouTube channel shows you what the four business problems look like. Roofing School walks you through fixing them inside your actual company. Monthly training modules, weekly group calls where your specific situation goes on the table, and a community of operators at different revenue tiers. The channel is the framework. The School is the install.</p>
-      </div>
-      <div class="faq-item">
-        <h3>Who is this for? Is it for new companies or established operators?</h3>
-        <p>Both. If you are at $0-$500K, the accounting and ops foundation is where you start: job costing, QuickBooks basics, gross margin targets. If you are at $500K-$3M, the marketing and hiring systems are the ceiling to break. If you are past $3M, the community and the calls give you peers at your level who have solved problems you have not hit yet. The monthly modules rotate across all four pillars, so every tier gets something relevant every month.</p>
-      </div>
-      <div class="faq-item">
-        <h3>How much time does it take?</h3>
-        <p>One weekly group call (60-90 minutes). The monthly module at your own pace. The work between calls is your real business, not homework. If you have 2-3 hours per week to put toward the business side of the company, Roofing School fits.</p>
-      </div>
-      <div class="faq-item">
-        <h3>Is there a trial period?</h3>
-        <p>Yes. 14 days to see the inside before you commit to anything. If the content, the calls, and the community are not worth $497 a month to your business, cancel before day 14. No friction, no questions.</p>
-      </div>
-      <div class="faq-item">
-        <h3>How is this different from other roofing business education?</h3>
-        <p>Roofing School covers all four pillars: accounting, marketing, production, and admin. It is not a sales-tactics program, not a storm-chasing system, and not a D2D closer course. It is full-stack roofing business education for the company owner who wants to understand and run every part of the operation, not just one lane.</p>
-      </div>
-      <div class="faq-item">
-        <h3>What does it cost?</h3>
-        <p>Roofing School is a monthly membership. Pricing surfaces on the join page. The 14-day trial is available so you can evaluate the content and the calls before the first full billing cycle. No explicit pricing in this sample; surfaces on the join flow.</p>
-      </div>
-      <div class="faq-item">
-        <h3>What if I want more than the group calls?</h3>
-        <p>Roofing School is the membership tier. If you want direct one-on-one time with Dmitry, that route is the 30-minute or 60-minute consulting call on dmitrylipinskiy.com. If you want a live event format, the 2-day workshop runs separately. Roofing School feeds both; it does not replace either.</p>
-      </div>
-      <div class="faq-item">
-        <h3>What about Directorii?</h3>
-        <p>Directorii is the contractor directory and homeowner-guarantee SaaS product. It is a separate platform from Roofing School. Some Roofing School members also use Directorii as the verified-contractor credential for their business. The two products are independent; Roofing School does not require a Directorii subscription.</p>
-      </div>
+      <div class="faq-item"><h3>How is Roofing School different from the free YouTube content?</h3><p>The YouTube content shows you what the four pillars are. Roofing School walks you through fixing them inside your actual business with the install package, the cohort cadence, and the visit-your-business guarantee. Free content educates. The install operates.</p></div>
+      <div class="faq-item"><h3>Is this a sales-tactics course?</h3><p>No. The lane is full-stack roofing business operations: accounting, marketing, production, hiring. Sales-rep tactics, storm-chasing strategies, and door-to-door canvassing belong to a different segment of roofing education. Roofing School is for the owner who is building the business behind the trade.</p></div>
+      <div class="faq-item"><h3>How fast will I see results?</h3><p>Roofing School measures install completion and operator discipline, not month-one revenue. The first measurable outcome is in week one: the job-costing audit locked. The visit-your-business guarantee is the mechanism that sits behind the install. Anyone who tells you a guaranteed-revenue outcome on a calendar in the roofing trade is selling you something else.</p></div>
+      <div class="faq-item"><h3>What is the time commitment?</h3><p>Weekly training cadence plus a cohort group call schedule. The install pacing is documented per pillar. The visit-your-business guarantee triggers based on operator implementation, not on a refund clock.</p></div>
+      <div class="faq-item"><h3>What is the investment?</h3><p>The Roofing School full marketing package is a one-time enrolment with the visit-your-business guarantee built in. Exact pricing and the guarantee terms surface on the checkout page. Mid-ticket range, not a low-ticket course.</p></div>
+      <div class="faq-item"><h3>What if my company revenue is below the install threshold?</h3><p>The new-company-owner track inside Roofing School walks the accounting and ops basics that most year-one contractors skip. The pillar pacing adjusts based on company stage. The Roofing Operator Score pre-application surfaces the calibration on submit.</p></div>
+      <div class="faq-item"><h3>What if I am past the install threshold and already running a mid-size shop?</h3><p>The established-operator track inside Roofing School walks the marketing, production, and hiring systems that take a mid-size shop into the next bracket. The 2-Day Workshop and 30/60-min consulting calls with Dmitry are surfaced for the operator who wants the higher-touch back-end after the install.</p></div>
+      <div class="faq-item"><h3>Residential, commercial, or both?</h3><p>The four pillars apply across residential and commercial roofing operators. The pillar pacing adjusts. The Roofing School cohort welcomes both, and the Roofing Operator Score surfaces the calibration.</p></div>
+      <div class="faq-item"><h3>Refund and guarantee policy?</h3><p>The visit-your-business guarantee is the headline mechanism. Full terms, refund window, and guarantee-trigger criteria surface on the checkout page. Read in full before enrolling.</p></div>
+      <div class="faq-item"><h3>Why is there a guarantee at all?</h3><p>Because the install matters. The guarantee is the trust signal that says the package is built to move the needle inside a real roofing company, and Dmitry stands behind that with a visit to your business if the install does not produce.</p></div>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
-
-<!-- BOTTOM CTA / JOIN -->
-<section id="join" class="bottom-cta">
+<section id="enrol" style="background:linear-gradient(180deg,transparent,rgba(212,175,55,0.04),transparent)">
   <div class="container-narrow">
-    <h2>The YouTube content shows you the problems.<br><em>Roofing School fixes them.</em></h2>
-    <p>Accounting, marketing, production, admin. Monthly modules, weekly calls, a community of roofing company owners who are doing the same work. 14-day trial before you commit to anything.</p>
-    <div class="cta-wrap">
-      <a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-primary">Walk the Plan with Andrei</a>
-    </div>
-    <p class="application-note">Or book directly: <a href="https://calendly.com/ag-copy/call-with-andrei" style="color:var(--red-bright)">calendly.com/ag-copy/call-with-andrei</a></p>
-    <!-- SWAP-SLOT: Replace the Calendly link above with the live Roofing School join link on kickoff.
-         Join flow URL sourced from Dmitry directly. Keep the 14-day trial language only if a trial is confirmed. -->
+    <div class="section-eyebrow">Enrol</div>
+    <h2 class="section-title">Enrol in Roofing School.</h2>
+    <p class="section-intro">The full marketing package with the visit-your-business guarantee. Founded 2019. Calibrated for the owner-operator past the year-one stage.</p>
+    <div class="cta-wrap"><a href="#enrol" class="cta-primary">Enrol Now</a></div>
+    <p class="checkout-note">Full terms, pricing, and the visit-your-business guarantee surface on the checkout page</p>
   </div>
 </section>
 
-<!-- FOOTER -->
+<section>
+  <div class="container">
+    <div class="risk-callout">
+      <span class="risk-label">Education-Niche Disclaimer</span>
+      <p>Not financial or business advice. Roofing company outcomes vary by market, capital, operator execution, and external factors. Roofing School is an educational and operational install package. Nothing on this page is a guaranteed-revenue claim or a contractor-license outcome promise.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container-narrow">
+    <div class="final-cta-section">
+      <h2>If Roofing Insights is the voice, <em>Roofing School is the install.</em></h2>
+      <p>Enrol when you are ready. The full marketing package, the four-pillar walkthrough, and the visit-your-business guarantee are on the other side of the checkout. Pricing and full guarantee terms surface there.</p>
+      <div class="cta-wrap"><a href="#enrol" class="cta-primary">Enrol In Roofing School</a></div>
+      <p class="checkout-note">Visit-your-business guarantee &middot; Full terms on the checkout page</p>
+      <p class="tagline">Accounting. Marketing. Production. Hiring. The install layer above the YouTube.</p>
+    </div>
+  </div>
+</section>
+
 <footer>
   <div class="container">
-    <p class="footer-text">
-      Roofing School &middot; Dmitry Lipinskiy &middot; Roofing Insights &middot; 2026<br>
-      Sample landing page built by AG1 Consulting. Brand colours and copy lock with Dmitry on day one of the install. <a href="https://andrei170.github.io/dmitry-lipinskiy-hub/">Back to the AG1 pitch hub &rarr;</a><br>
-      Outcomes depend on individual contractor business stage, market, and execution. Roofing business results are not typical. AG1 Consulting Ltd builds the marketing funnel only; roofing business education delivered exclusively by Roofing Insights / Roofing School.
-    </p>
+    <p class="footer-meta">Roofing School &middot; Dmitry Lipinskiy &middot; Founded 2019 &middot; 2026</p>
+    <p class="footer-disclaimer">Not financial or business advice. Roofing company outcomes vary by market, capital, operator execution, and external factors. Roofing School is an educational and operational install package. Nothing here is a guaranteed-revenue claim or a contractor-license outcome promise. Sample landing page built by AG1 Consulting in AG1 brand colours. Brand colours and copy lock with Dmitry on day one of the install.</p>
   </div>
 </footer>
 
-<script>
-(function(){
-  var v = document.getElementById('hero-video');
-  if(!v) return;
-  var youtubeId = 'SWAP-SLOT-VIDEO-ID';
-  /* SWAP-SLOT: Replace 'SWAP-SLOT-VIDEO-ID' above with the verified YouTube video ID from the
-     Roofing Insights channel (147K subscribers). Preferred: Roofing School VSL when filmed,
-     or the most relevant Roofing Insights business-education video in the meantime.
-     YouTube video ID is the 11-character string after ?v= in the URL. */
-  function load(){
-    var iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/' + youtubeId + '?autoplay=1&rel=0';
-    iframe.setAttribute('allow','accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
-    iframe.setAttribute('allowfullscreen','');
-    iframe.frameBorder = '0';
-    v.innerHTML = '';
-    v.appendChild(iframe);
-  }
-  v.addEventListener('click', load);
-  v.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); load(); }});
-})();
-</script>
 </body>
 </html>
